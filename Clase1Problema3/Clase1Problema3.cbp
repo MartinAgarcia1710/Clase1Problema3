@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="bidon,h.h" />
+		<Unit filename="bidon.cpp" />
+		<Unit filename="bidon.h" />
+		<Unit filename="funciones.cpp" />
+		<Unit filename="funciones.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

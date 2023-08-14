@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1691974301 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\main.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1691975524 d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\funciones.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1691975507 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\funciones.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1691975481 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\bidon.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1691963448 d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\bidon,h.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon,h.h"
+
+1691975481 d:\ejercicios c++\laboratorio 2\practicas clase 1\problema3\clase1problema3\bidon.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
