@@ -31,17 +31,27 @@ cuántos batidos vendió de cada uno.
 
 using namespace std;
 #include "bidon.h"
+#include "vaso.h"
 
 int main(){
+    float *recaudacion;
+    int opcion;
+    int cantidadBidones;
+    bidon *vectorBidones;
+    vaso vectorVasos[3];
 
-   int opcion;
-   int cantidadBidones;
-   bidon *vectorBidones;
+    vectorVasos[0].setCapacidad(0.15);
+    vectorVasos[1].setCapacidad(0.2);
+    vectorVasos[2].setCapacidad(0.3);
+    vectorVasos[0].setCodigoTamanio(1);
+    vectorVasos[1].setCodigoTamanio(2);
+    vectorVasos[2].setCodigoTamanio(3);
 
-   cout << "Ingrese cantidad de bidones con las que va a trabajar" << endl;
-   cin >> cantidadBidones;
+    cout << "Ingrese cantidad de bidones con las que va a trabajar" << endl;
+    cin >> cantidadBidones;
 
-   vectorBidones = new bidon[cantidadBidones];
+    vectorBidones = new bidon[cantidadBidones];
+    recaudacion = new float[cantidadBidones];
 
     do{
         cout <<"1. DEFINICION DE BIDONES" << endl << "2. LLENAR BIDONES" << endl << "3. NIVEL DE LOS BIDONES" << endl << "4. CARGAR VENTAS" << endl << "5. VACIAR BIDONES" << endl;
@@ -58,7 +68,7 @@ int main(){
             mostrarNiveldeBidones(vectorBidones, cantidadBidones);
             break;
         case 4:
-
+            CargaVentas(vectorBidones, vectorVasos, cantidadBidones, recaudacion);
             break;
         case 5:
             vaciarBidones(vectorBidones, cantidadBidones);
@@ -68,8 +78,8 @@ int main(){
             }
     }while(true);
 
-
-
     delete [] vectorBidones;
+    delete [] recaudacion;
+
     return 0;
 }

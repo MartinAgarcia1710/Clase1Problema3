@@ -1,7 +1,7 @@
+
 #include <iostream>
 #include "funciones.h"
 #include <string>
-#pragma once
 
 using namespace std;
 #include "bidon.h"
@@ -50,3 +50,8 @@ float bidon::getCantidad(){
 void bidon::vaciar(){
     _cantidad = 0;
 }
+
+float bidon::getPrecioXlitro(){
+    return _precioXlitro;
+}
+

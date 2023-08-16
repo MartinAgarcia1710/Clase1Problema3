@@ -2,6 +2,7 @@
 #include "funciones.h"
 #include <string>
 #include "bidon.h"
+#include "vaso.h"
 using namespace std;
 
 void definicionDeBidones(bidon vectorBidones[], int cantidadBidones){
@@ -68,9 +69,32 @@ void vaciarBidones(bidon vectorBidones[], int cantidadBidones){
         cout << "Que bidon quiere llenar?" << endl;
         cin >> opcion;
     }
+}
 
+void CargaVentas(bidon vectorBidones[], vaso vectorVasos[], int cantidadBidones, float recaudacion[]){
+    int codigoVaso;
+    int codigoSabor;
 
+    cout << "OPCIONES DE SABORES" << endl;
+    for(int x = 0; x < cantidadBidones;x++){
+        cout << x + 1 << vectorBidones[x].getSabor() << ". " << endl;
+    }
+    cout << "CODIGOS DE CAPACIDAD DE VASOS" << endl;
+    for(int x = 0; x < 3; x++){
+        cout << x + 1 << vectorVasos[x].getCapacidad() << endl;
+    }
+    cout << "Ingrese codigo de tamaño de vaso" << endl;
+    cin >> codigoVaso;
 
+    while(codigoVaso !=0){
+        cout << "Ingrese el sabor a servir" << endl;
+        cin >> codigoSabor;
+        ///vectorBidones[codigoSabor-1].getCantidad() -= vectorVasos[codigoVaso-1].getCapacidad();
+        recaudacion[codigoSabor-1] += vectorVasos[codigoVaso-1].getCapacidad() * vectorBidones[codigoSabor-1].getPrecioXlitro();
+        cout << "Ingrese codigo de tamaño de vaso" << endl;
+        cin >> codigoVaso;
+
+    }
 }
 
 

@@ -1,10 +1,11 @@
 #ifndef BIDON,H_H_INCLUDED
 #define BIDON,H_H_INCLUDED
+#pragma once
 #include <iostream>
 #include "funciones.h"
 #include <string>
 #include "bidon.h"
-#pragma once
+#include "vaso.h"
 
 using namespace std;
 
@@ -29,7 +30,7 @@ class bidon{
         void setPrecioXlitro(float precioXlitro);
 
         void llenar(float cantidadAllenar);
-        void servir(float cantidadAservir);
+
         void vaciar();
 
 

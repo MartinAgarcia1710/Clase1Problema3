@@ -35,3 +35,43 @@
 	<string>
 	"bidon.h"
 
+1692129649 source:d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\bidon.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1692129544 d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\funciones.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+	"vaso.h"
+
+1692130744 d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\bidon.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+	"vaso.h"
+
+1692128656 source:d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\funciones.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+	"vaso.h"
+
+1692129181 d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\vaso.h
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+
+1692129181 source:d:\material de estudio\laboratorio 2\clase1problema2\clase1problema3\clase1problema3\clase1problema3\main.cpp
+	<iostream>
+	"funciones.h"
+	<string>
+	"bidon.h"
+	"vaso.h"
+
